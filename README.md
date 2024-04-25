@@ -1,2 +1,2 @@
 # Maxima
-- [Obarvane Vrstice](./master/maxima/obarvane-vrstice)
+- [Obarvane Vrstice](./maxima/obarvane-vrstice)
