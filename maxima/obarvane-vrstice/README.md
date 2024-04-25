@@ -5,7 +5,7 @@
 
 #### Edge 
 - https://microsoftedge.microsoft.com/addons/detail/custom-style-script/eocdolakkgkbmnfojgicnicdnmimfhoo
-- Za `podpora.sigov.si` dodaj CSS:
+- Za `https://podpora.sigov.si` dodaj CSS:
 ```
 table.plinner > tbody > tr:nth-child(4n+3):has(a.rsd) {
     background-color: lightgray;
