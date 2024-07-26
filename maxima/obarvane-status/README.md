@@ -7,8 +7,8 @@ var spans = document.getElementsByTagName('span');
 	try {
 		if (!spans[i].classList.contains('portlet_nowrap')) continue;
   var tColor;
+  if (spans[i].textContent == "QUEUED")continue;
   if (spans[i].textContent == "INPROG")var tColor = "#aa8600";
-  if (spans[i].textContent == "QUEUED")var tColor = "black";
   if (spans[i].textContent == "PENDING")var tColor = "gray";
 		var inspans = spans[i].closest('tr').getElementsByTagName('span');
 		var ll = inspans.length;
