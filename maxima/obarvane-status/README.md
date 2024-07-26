@@ -3,6 +3,8 @@
 potrebno je odstraniti komentarje oz. prilagoditi po želji.
 
 ```
+var bugg= document.getElementById('csjRan');
+if (bugg != null) bugg.style.display = 'none';
 var spans = document.getElementsByTagName('span');
 	var l = spans.length;
 	for (var i=0;i<l;i++) {
